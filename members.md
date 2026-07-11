@@ -2,14 +2,27 @@
 title: Roster of Members
 ---
 
-<div class="roster-search">
+<div class="event-filters roster-search" role="search" aria-label="Filter members">
+  <div>
     <label for="member-search">Search by name:</label>
     <input id="member-search" type="search" minlength="3" placeholder="Enter at least 3 letters" autocomplete="off" />
+  </div>
+  <div>
+    <label for="member-rank">Rank:</label>
+    <span class="event-state-select">
+      <select id="member-rank">
+        <option value="">All ranks</option>
+        {% assign ranks = "Scholar|Free Scholar|Provost|Distinguished Provost" | split: "|" %}
+        {% for rank in ranks %}
+        <option value="{{ rank }}">{{ rank }}</option>
+        {% endfor %}
+      </select>
+    </span>
+  </div>
     <span id="member-search-status" role="status" aria-live="polite"></span>
 </div>
 
 <table id="member-roster" class="pure-table pure-table-bordered sortable" width="100%">
-<caption>Academie members by name, rank, and induction date</caption>
 <thead>
 <tr>
    <th scope="col"> Name </th>
@@ -50,22 +63,31 @@ Are you a new member of the Academie or have recently changed rank?  [Fill this 
 <script>
 (function () {
     var search = document.getElementById('member-search');
+    var rank = document.getElementById('member-rank');
     var rows = document.getElementById('member-roster').tBodies[0].rows;
     var status = document.getElementById('member-search-status');
 
-    search.addEventListener('input', function () {
+    function filterMembers() {
         var query = search.value.trim().toLowerCase();
-        var shouldFilter = query.length >= 3;
+        var useSearch = query.length >= 3;
+        var selectedRank = rank.value;
+        var isFiltering = useSearch || selectedRank !== '';
         var matches = 0;
 
         for (var i = 0; i < rows.length; i++) {
             var name = rows[i].cells[0].textContent.toLowerCase();
-            var isMatch = !shouldFilter || name.indexOf(query) !== -1;
+            var memberRank = rows[i].cells[1].textContent.trim();
+            var matchesSearch = !useSearch || name.indexOf(query) !== -1;
+            var matchesRank = !selectedRank || memberRank === selectedRank;
+            var isMatch = matchesSearch && matchesRank;
             rows[i].style.display = isMatch ? '' : 'none';
             if (isMatch) matches++;
         }
 
-        status.textContent = shouldFilter ? matches + (matches === 1 ? ' member found' : ' members found') : '';
-    });
+        status.textContent = isFiltering ? matches + (matches === 1 ? ' member found' : ' members found') : '';
+    }
+
+    search.addEventListener('input', filterMembers);
+    rank.addEventListener('change', filterMembers);
 }());
 </script>
