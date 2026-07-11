@@ -429,7 +429,7 @@ striping:
   box-sizing: border-box;
   max-width: 100%;
   padding: 0.5em 0.75em;
-  width: fit-content;
+  width: 100%;
 }
 
 #main .events-list {
