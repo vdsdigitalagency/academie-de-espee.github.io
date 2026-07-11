@@ -10,25 +10,6 @@
         seasons[i].dataset.defaultOpen = seasons[i].open ? 'true' : 'false';
     }
 
-    function matchHighlightWidths() {
-        var highlightedEvents = document.querySelectorAll('.events-list .next-event');
-        var widest = 0;
-
-        for (var i = 0; i < highlightedEvents.length; i++) {
-            highlightedEvents[i].style.width = 'fit-content';
-        }
-
-        for (var j = 0; j < highlightedEvents.length; j++) {
-            widest = Math.max(widest, highlightedEvents[j].getBoundingClientRect().width);
-        }
-
-        if (highlightedEvents.length > 1) {
-            for (var k = 0; k < highlightedEvents.length; k++) {
-                highlightedEvents[k].style.width = widest + 'px';
-            }
-        }
-    }
-
     function filterEvents() {
         var query = search.value.trim().toLowerCase();
         var useSearch = query.length >= 3;
@@ -65,6 +46,4 @@
 
     search.addEventListener('input', filterEvents);
     state.addEventListener('change', filterEvents);
-    window.addEventListener('resize', matchHighlightWidths);
-    matchHighlightWidths();
 }());
