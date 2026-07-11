@@ -1,6 +1,10 @@
 {
   "Scholar": [
     {
+      "name": "Aha de Isenfir",
+      "date": "2024-09-14"
+    },
+    {
       "name": "Æduin of Skye",
       "op_id": 10085
     },
@@ -33,6 +37,10 @@
       "name": "Bentz Klein",
       "op_id": 13031,
       "date": "2025-05-17"
+    },
+    {
+      "name": "Brian de Isenfir",
+      "date": "2024-09-14"
     },
     {
       "name": "Charles the Bull",
@@ -171,6 +179,10 @@
       "date": "2026-01-10"
     },
     {
+      "name": "Sage de Isenfir",
+      "date": "2024-09-14"
+    },
+    {
       "name": "Sayyida Khaula bint Isma'il ibn Mujahid al-Zarqa'"
     },
     {
@@ -205,10 +217,6 @@
       "date": "2013-05-25"
     },
     {
-      "name": "Aha de Isenfir",
-      "date": "2024-09-14"
-    },
-    {
       "name": "Aleksandr Tomasovič",
       "op_id": 9704,
       "date": "2024-05-11"
@@ -236,10 +244,6 @@
       "name": "Blaze Frostell",
       "op_id": 11045,
       "date": "2024-04-20"
-    },
-    {
-      "name": "Brian de Isenfir",
-      "date": "2024-09-14"
     },
     {
       "name": "Caillan Ruffio",
@@ -318,10 +322,6 @@
       "name": "Roibhilin O Grada",
       "op_id": 8942,
       "date": "2024-05-11"
-    },
-    {
-      "name": "Sage de Isenfir",
-      "date": "2024-09-14"
     },
     {
       "name": "Sanada Akime",
