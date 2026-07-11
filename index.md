@@ -1,5 +1,4 @@
 ---
-title: Home
 ---
 
 The Royal Academie d'Espee is chartered guild of the Kingdom of Atlantia, and exists to promote the practice and enjoyment of historical combat with the rapier and related weapons, as well as service to both the greater rapier community and the Kingdom.

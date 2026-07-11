@@ -15,7 +15,7 @@ Here are links related to fencing, merchants, and other websites of interest to 
 
 * [Merchants of Interest](merchants)
 
-## Externals Links
+## External Links
 
 * [Other Websites To Visit](other-places)
 * [Blacksword Tournament - Atlantia Wiki](https://www.wiki.atlantia.sca.org/index.php?title=Blacksword_Tournament)
