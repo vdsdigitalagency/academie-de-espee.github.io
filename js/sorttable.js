@@ -91,7 +91,6 @@ sorttable = {
 	      headrow[i].sorttable_tbody = table.tBodies[0];
 	      headrow[i].setAttribute('tabindex', '0');
 	      headrow[i].setAttribute('aria-sort', 'none');
-	      headrow[i].setAttribute('title', 'Select to sort');
 	      dean_addEvent(headrow[i], "keydown", function(e) {
 	        e = e || window.event;
 	        var key = e.key || e.keyCode;

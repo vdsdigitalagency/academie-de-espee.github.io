@@ -22,44 +22,22 @@ title: Roster of Members
     <span id="member-search-status" role="status" aria-live="polite"></span>
 </div>
 
-<table id="member-roster" class="pure-table pure-table-bordered sortable" width="100%">
-<caption class="visually-hidden">Academie members by name, rank, and induction date</caption>
-<thead>
-<tr>
-   <th scope="col"> Name </th>
-   <th scope="col"> Rank </th>
-   <th scope="col"> Date </th>
-</tr>
-</thead>
-<tbody>
-{% for data in site.data.members %}
-{% assign rank = data[0] %}
-{% assign entries = data[1] | sorted %}
-{% for entry in entries %}
-<tr>
-	<td>
-
-    		{% if entry.op_id != null %}
-       			<a href="http://op.atlantia.sca.org/op_ind.php?atlantian_id={{entry.op_id}}">
-    		{% endif %}
-		{{ entry.name }}
-    		{% if entry.op_id != null %}
-       			</a>
-    		{% endif %}
-	</td>
-	<td> {{ rank }} </td>
-	<td> {{ entry.date }} </td>
-</tr>
-{% endfor %}
-{% endfor %}
-</tbody>
-</table>
+| Name | Rank | Date |
+| --- | --- | --- |
+{% for data in site.data.members %}{% assign rank = data[0] %}{% assign entries = data[1] | sorted %}{% for entry in entries %}| {% if entry.op_id != null %}[{{ entry.name }}](https://op.atlantia.sca.org/op_ind.php?atlantian_id={{ entry.op_id }}){% else %}{{ entry.name }}{% endif %} | {{ rank }} | {{ entry.date }} |
+{% endfor %}{% endfor %}
 
 *The roster was reviewed and updated as of July 11, 2026.*
 
-Are you a new member of the Academie or have recently changed rank?  [Fill this form](https://forms.gle/Xyj8HFtUp5W8F2oy7){:target="_blank" rel="noopener noreferrer"}, or make a [pull request](https://github.com/academie-de-espee/academie-de-espee.github.io/pulls){:target="_blank" rel="noopener noreferrer"}.
+Are you a new member of the Academie or have recently changed rank?  [Fill this form](https://forms.gle/Xyj8HFtUp5W8F2oy7), or make a [pull request](https://github.com/academie-de-espee/academie-de-espee.github.io/pulls).
 
 
+<script>
+var memberRoster = document.querySelector('.roster-search + table');
+memberRoster.id = 'member-roster';
+memberRoster.classList.add('sortable');
+memberRoster.setAttribute('aria-label', 'Academie members by name, rank, and induction date');
+</script>
 <script src="/js/sorttable.js"></script>
 <script>
 (function () {
