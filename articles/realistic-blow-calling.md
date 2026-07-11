@@ -216,14 +216,15 @@ Blade #5 foil practice = electric foil Italian epee
 | Blade | Pressure required for 2 inch bend |
 | --- | --- |
 | #5 foil | 4.5 pounds |
-| Practice electric foil | 5.5 pounds |
+| Practice electric foil | 5.5 pounds|
 | Italian epee | 10 pounds |
+
 
 | Blade | Pressure for slow penetration | Thrust |
 | --- | --- | --- |
-| Gerber dagger | 3.5 pounds | 1.5 pounds |
-| Light rapier | 3.5 pounds | 1.5 pounds |
-| Heavy rapier | 5.5 pounds | 5.0 pounds |
+| gerber dagger | 3.5 pounds |  1.5 pounds |
+| light rapier   | 3.5 pounds | 1.5 pounds |
+| heavy rapier    | 5.5 pounds | 5.0 pounds |
 
 Note: It does not require 10 pounds to deliver a good blow with an epee,
 it simply does not bend as much in delivering a killing blow. The bend of the
