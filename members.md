@@ -9,11 +9,12 @@ title: Roster of Members
 </div>
 
 <table id="member-roster" class="pure-table pure-table-bordered sortable" width="100%">
+<caption>Academie members by name, rank, and induction date</caption>
 <thead>
 <tr>
-   <th> Name </th>
-   <th> Rank </th>
-   <th> Date </th>
+   <th scope="col"> Name </th>
+   <th scope="col"> Rank </th>
+   <th scope="col"> Date </th>
 </tr>
 </thead>
 <tbody>

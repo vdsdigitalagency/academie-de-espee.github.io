@@ -1,7 +1,7 @@
 ---
 ---
 
-![scroll](/images/scroll.gif)
+![Illuminated scroll showing the elevation of Baron Gerlach as a Provost of the Academie](/images/scroll.gif)
 
 This scroll was done by Mistress Isobel Guildingwater for Baron Gerlach's elevation to a Provost of the Academie.  No, you're not confused.  This scroll was made *before* Atlantia became a signatory of the Treaty of the White Scarf.  At the time this was painted, all Provosts wore the gold scarf as their badge.  The umbrella bears the badge of the Academie and the inclusion of it in the picture is something of an inside joke having to do with an "interesting" encounter Gerlach had at Estrella War one year.
 

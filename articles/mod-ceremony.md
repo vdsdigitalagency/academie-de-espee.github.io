@@ -2,20 +2,20 @@
 title: Atlantia's Ceremony for the Order of Defense
 ---
 
-# Notes
+## Notes
 * “OD” is used to designate a member of the Order of Defense.
 * “Speaker” is used where other ceremonies might say “Worthy”. It was agreed that these don’t necessarily need to be Peers but rather people of importance to the candidate.
 * “Rose” is the Lady of the Rose speaking for and assisting the candidate.
 * “Candidate” is the person about to be recognized with the Order of Defense.
 * The spoken text is for suggested guidelines only and may be altered as each speaker desires.
 
-# Vigil
+## Vigil
 * Crown leads candidate to vigil area.
 * Ceremonial purification with changing into white shirt/garb and washing hands.
 * Speaker says words during purification about the candidate as well as the importance of the purification.
 * Hospitality and vigil begin. People running vigil will work with candidate on preferences of visitor order, etc. Ditto for guards, tokens, type of hospitality, having a book to write in, etc.
 
-# Day of Elevation
+## Day of Elevation
 1. Elevation
     1. On battlefield is preferred but in court as necessary.
     1. Order called in and stands to the side.
@@ -49,7 +49,7 @@ title: Atlantia's Ceremony for the Order of Defense
 
         Rose: With this weapon, you have defended your kingdom, its Crown and subjects over many years and with great skill. You have shown your ability to use it wisely and with courtesy, sparing those deserving gentles that you have vanquished. Your actions as you have held this weapon have proven time and again your mastery not only of the weapon itself but of when and how best to use it.
 
-# Fealty
+## Fealty
 1. Sword of state is handed to Queen who stands it up. King puts his hands upon hers. Candidate puts one hand on TRM’s hands while other holds their collar and/or medallion.
 1. Candidate gives their fealty.
 1. Queen requests personal weapon from Rose.

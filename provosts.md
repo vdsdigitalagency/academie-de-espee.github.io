@@ -3,13 +3,14 @@ title: Roster of Provosts
 ---
 
 <table class="pure-table pure-table-bordered sortable" width="100%">
+<caption>Provosts of the Academie</caption>
 <thead>
 <tr>
-    <th> Name </th>
-    <th> Date </th>
-    <th> Event </th>
-    <th> Monarch </th>
-    <th> Relationships </th>
+    <th scope="col"> Name </th>
+    <th scope="col"> Date </th>
+    <th scope="col"> Event </th>
+    <th scope="col"> Monarch </th>
+    <th scope="col"> Relationships </th>
 </tr>
 </thead>
 <tbody>

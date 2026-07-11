@@ -32,12 +32,20 @@ say it.  Most verbs and adjectives can bring to mind an animal or object
 that personifies that word.  Below is a brief list of some words that
 easily lend themselves to metaphor.
 
-| crafty, cunning | Sly as a fox's smile |
-| witty, quick | Sharp as an embroider's needle |
-| delicate | Fragile as a robin's egg |
-| smooth, supple | Silken hose match not the feel of thy garb |
-| bright, cheerful | Thy smile is finer than a songbird's tune |
-| loud, piercing | No angel's trumpet can match that herald's voice |
+<table>
+<caption>Examples of descriptive words and matching metaphors</caption>
+<thead>
+<tr><th scope="col">Description</th><th scope="col">Example metaphor</th></tr>
+</thead>
+<tbody>
+<tr><td>crafty, cunning</td><td>Sly as a fox's smile</td></tr>
+<tr><td>witty, quick</td><td>Sharp as an embroider's needle</td></tr>
+<tr><td>delicate</td><td>Fragile as a robin's egg</td></tr>
+<tr><td>smooth, supple</td><td>Silken hose match not the feel of thy garb</td></tr>
+<tr><td>bright, cheerful</td><td>Thy smile is finer than a songbird's tune</td></tr>
+<tr><td>loud, piercing</td><td>No angel's trumpet can match that herald's voice</td></tr>
+</tbody>
+</table>
 
 It takes practice, but try occasionally to throw a compliment using a
 metaphor or simile.  When admiring someone's new dress, sword, chair,

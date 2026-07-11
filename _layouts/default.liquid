@@ -1,27 +1,28 @@
 ---
 # -*- html -*- mode
 ---
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<!doctype html>
+<html lang="en">
     <head>
         <title>Academie d'Espee : {{ page.title }} </title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <meta name="language" content="en" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="/css/default.css" />
         <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
         <link rel="shortcut icon" type="image/x-icon" href="{{site.url}}/images/favicon.ico" />
+        <script src="/js/accessibility.js" defer></script>
     </head>
 
     <body>
+        <a class="skip-link" href="#main">Skip to main content</a>
         <div class="margins">
-            <div id="header">
+            <header id="header">
                 <center><a href='/'><img src="/images/ade_badge.gif" alt="Academie d'Espee" width="175"></a></center>
 
                 <br />
                 <div class="clear"></div>
 
-                <div id="nav">
+                <nav id="nav" aria-label="Main navigation">
                     <div class="hlist">
                         <ul>
                             {% for t in site.nav %}
@@ -32,17 +33,17 @@
                             {% endfor %}
                         </ul>
                     </div>
-                </div>
-            </div>
+                </nav>
+            </header>
 
-            <div id="main">
+            <main id="main" tabindex="-1">
             <h1>{{ page.title }}</h1>
             {{ content }}
-            </div>
+            </main>
 
-            <div id="footer">
+            <footer id="footer">
                 Have issues? <a href='https://github.com/academie-de-espee/academie-de-espee.github.io/issues/new' target='_blank' rel='noopener noreferrer'>Let us know!</a> - Maintained by <a href='mailto:bmc@shmoo.com'>Brian de Moray, Master of Defense</a>
-            </div>
+            </footer>
         </div>
     </body>
 </html>
