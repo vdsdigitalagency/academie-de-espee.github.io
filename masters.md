@@ -59,6 +59,6 @@ title: Roster of Masters
 </tbody>
 </table>
 
-Are you a master?  Do you want your name listed above?  Email [Lady Virginie de Champagne](mailto:vvdelaitre@gmail.com) or make a [pull request](https://github.com/academie-de-espee/academie-de-espee.github.io/pulls).
+Are you a master?  Do you want your name listed above?  Email [Lady Virginie de Champagne](mailto:vvdelaitre@gmail.com) or make a [pull request](https://github.com/academie-de-espee/academie-de-espee.github.io/pulls){:target="_blank" rel="noopener noreferrer"}.
 
 <script src="/js/sorttable.js"></script>

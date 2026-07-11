@@ -10,7 +10,7 @@ Interested in joining the Academie d'Espee? Consult the information below.
 * [Guild Charter](charter)
 * [Bylaws](bylaws)
 * [Roster of Members](members)
-* [New Scholar Form](https://forms.gle/Xyj8HFtUp5W8F2oy7)
+* [New Scholar Form](https://forms.gle/Xyj8HFtUp5W8F2oy7){:target="_blank" rel="noopener noreferrer"}
 
 ## Guild Activities
 

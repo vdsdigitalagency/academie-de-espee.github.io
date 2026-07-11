@@ -2,7 +2,13 @@
 title: Roster of Members
 ---
 
-<table class="pure-table pure-table-bordered sortable" width="100%">
+<div class="roster-search">
+    <label for="member-search">Search by name:</label>
+    <input id="member-search" type="search" minlength="3" placeholder="Enter at least 3 letters" autocomplete="off" />
+    <span id="member-search-status" role="status" aria-live="polite"></span>
+</div>
+
+<table id="member-roster" class="pure-table pure-table-bordered sortable" width="100%">
 <thead>
 <tr>
    <th> Name </th>
@@ -34,8 +40,31 @@ title: Roster of Members
 </tbody>
 </table>
 
+*The roster was reviewed and updated as of July 11, 2026.*
 
-Are you a new member of the Academie or have recently changed rank?  [Fill this form](https://forms.gle/Xyj8HFtUp5W8F2oy7), or make a [pull request](https://github.com/academie-de-espee/academie-de-espee.github.io/pulls).
+Are you a new member of the Academie or have recently changed rank?  [Fill this form](https://forms.gle/Xyj8HFtUp5W8F2oy7){:target="_blank" rel="noopener noreferrer"}, or make a [pull request](https://github.com/academie-de-espee/academie-de-espee.github.io/pulls){:target="_blank" rel="noopener noreferrer"}.
 
 
 <script src="/js/sorttable.js"></script>
+<script>
+(function () {
+    var search = document.getElementById('member-search');
+    var rows = document.getElementById('member-roster').tBodies[0].rows;
+    var status = document.getElementById('member-search-status');
+
+    search.addEventListener('input', function () {
+        var query = search.value.trim().toLowerCase();
+        var shouldFilter = query.length >= 3;
+        var matches = 0;
+
+        for (var i = 0; i < rows.length; i++) {
+            var name = rows[i].cells[0].textContent.toLowerCase();
+            var isMatch = !shouldFilter || name.indexOf(query) !== -1;
+            rows[i].style.display = isMatch ? '' : 'none';
+            if (isMatch) matches++;
+        }
+
+        status.textContent = shouldFilter ? matches + (matches === 1 ? ' member found' : ' members found') : '';
+    });
+}());
+</script>
