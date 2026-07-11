@@ -23,7 +23,7 @@ title: Roster of Members
 </div>
 
 <table id="member-roster" class="pure-table pure-table-bordered sortable" width="100%">
-<caption>Academie members by name, rank, and induction date</caption>
+<caption class="visually-hidden">Academie members by name, rank, and induction date</caption>
 <thead>
 <tr>
    <th scope="col"> Name </th>
