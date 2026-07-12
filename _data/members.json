@@ -1,6 +1,10 @@
 {
   "Scholar": [
     {
+      "name": "Aha de Isenfir",
+      "date": "2024-09-14"
+    },
+    {
       "name": "Æduin of Skye",
       "op_id": 10085
     },
@@ -9,7 +13,8 @@
       "op_id": 12351
     },
     {
-      "name": "Alan of Wolfhau"
+      "name": "Allen of Wolfhau",
+      "op_id": 176
     },
     {
       "name": "Aodh Adendra Marland",
@@ -30,7 +35,12 @@
     },
     {
       "name": "Bentz Klein",
+      "op_id": 13031,
       "date": "2025-05-17"
+    },
+    {
+      "name": "Brian de Isenfir",
+      "date": "2024-09-14"
     },
     {
       "name": "Charles the Bull",
@@ -76,7 +86,8 @@
       "name": "Falcona of Lochmere"
     },
     {
-      "name": "Freydis Rodmarsdottir"
+      "name": "Freydis Rodmarsdottir",
+      "op_id": 9981
     },
     {
       "name": "Gabriel Leoson",
@@ -91,6 +102,10 @@
       "op_id": 8005
     },
     {
+      "name": "Irina Zelenogorskaya",
+      "date": "2026-04-25"
+    },
+    {
       "name": "Isabetta Seraphina di Petrillo",
       "op_id": 4295
     },
@@ -102,10 +117,12 @@
       "name": "Jeffrey Thorne"
     },
     {
-      "name": "Johann of Isenfir"
+      "name": "Johann of Isenfir",
+      "date": "2024-06-15"
     },
     {
-      "name": "Juan De Zaragosa"
+      "name": "Juan de Zaragoza",
+      "op_id": 8906
     },
     {
       "name": "Lucio Malatesta",
@@ -124,6 +141,10 @@
     {
       "name": "Nezhka Orshinaia",
       "op_id": 9481
+    },
+    {
+      "name": "Omar Akhdar al-Hadid",
+      "date": "2026-04-25"
     },
     {
       "name": "Owyn De Wolfe",
@@ -154,17 +175,29 @@
       "op_id": 2693
     },
     {
+      "name": "Rowyn Julyon",
+      "op_id": 11858,
+      "date": "2026-01-10"
+    },
+    {
+      "name": "Sage de Isenfir",
+      "date": "2024-09-14"
+    },
+    {
       "name": "Sayyida Khaula bint Isma'il ibn Mujahid al-Zarqa'"
     },
     {
       "name": "Silas",
+      "op_id": 12567,
       "date": "2025-10-18"
     },
     {
-      "name": "Sophia the Orange"
+      "name": "Sophia Orange",
+      "op_id": 6312
     },
     {
-      "name": "Talorgen Hersir nepos Wrguist"
+      "name": "Talorgen nepos Wrguist",
+      "op_id": 2941
     },
     {
       "name": "Tibbie Crosier"
@@ -183,10 +216,6 @@
       "name": "Aedh Ua Ruairc",
       "op_id": 7368,
       "date": "2013-05-25"
-    },
-    {
-      "name": "Aha de Isenfir",
-      "date": "2024-09-14"
     },
     {
       "name": "Aleksandr Tomasovič",
@@ -216,10 +245,6 @@
       "name": "Blaze Frostell",
       "op_id": 11045,
       "date": "2024-04-20"
-    },
-    {
-      "name": "Brian de Isenfir",
-      "date": "2024-09-14"
     },
     {
       "name": "Caillan Ruffio",
@@ -300,15 +325,6 @@
       "date": "2024-05-11"
     },
     {
-      "name": "Roland De Thompson",
-      "op_id": 9562,
-      "date": "2019-03-23"
-    },
-    {
-      "name": "Sage de Isenfir",
-      "date": "2024-09-14"
-    },
-    {
       "name": "Sanada Akime",
       "op_id": 8195,
       "date": "2016-11-19"
@@ -317,11 +333,6 @@
       "name": "Virginie de Champagne",
       "op_id": 12071,
       "date": "2024-08-05"
-    },
-    {
-      "name": "William Mac Dhomhnaill",
-      "op_id": 3174,
-      "date": "2023-04-01"
     }
   ],
   "Provost": [
@@ -436,6 +447,11 @@
       "date": "1996-04-20"
     },
     {
+      "name": "Roland De Thompson",
+      "op_id": 9562,
+      "date": "2026-02-20"
+    },
+    {
       "name": "Seamus O Maoil Riain",
       "op_id": 2789,
       "date": "2017-02-11"
@@ -463,6 +479,11 @@
     {
       "name": "William Cameron",
       "op_id": 3178
+    },
+    {
+      "name": "William MacDhomhnaill",
+      "op_id": 3174,
+      "date": "2026-02-07"
     },
     {
       "name": "Yrsa Eds dottir",

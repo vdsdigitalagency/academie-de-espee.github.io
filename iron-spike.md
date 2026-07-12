@@ -27,11 +27,12 @@ The Iron Spike was forged by Solvar and its chain was made by Lord (now Master) 
 <h3> Past Holders </h3>
 
 <table class="pure-table pure-table-bordered sortable">
+<caption>Past holders of the Iron Spike</caption>
 <thead>
 <tr>
-    <th> # </th>
-    <th> Name </th>
-    <th> Times Defended </th>
+    <th scope="col"> # </th>
+    <th scope="col"> Name </th>
+    <th scope="col"> Times Defended </th>
 </tr>
 </thead>
 <tbody>
@@ -60,11 +61,12 @@ The Iron Spike was forged by Solvar and its chain was made by Lord (now Master) 
 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
 <h3> Individual Totals </h3>
 <table class="pure-table pure-table-bordered sortable">
+<caption>Individual Iron Spike records</caption>
 <thead>
 <tr>
-    <th> Name </th>
-    <th> Total Defended </th>
-    <th> Total Gained </th>
+    <th scope="col"> Name </th>
+    <th scope="col"> Total Defended </th>
+    <th scope="col"> Total Gained </th>
 </tr>
 </thead>
 {% assign all_names = site.data.ironspike | map: "name" | sort %}
@@ -104,10 +106,11 @@ The Iron Spike was forged by Solvar and its chain was made by Lord (now Master) 
 
 <h3> Totals </h3>
 <table class="pure-table pure-table-bordered">
+<caption>Overall Iron Spike totals</caption>
 <thead>
 <tr>
-    <th> Type </th>
-    <th> Count </th>
+    <th scope="col"> Type </th>
+    <th scope="col"> Count </th>
 </tr>
 </thead>
 <tbody>

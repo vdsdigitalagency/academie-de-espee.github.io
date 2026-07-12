@@ -214,14 +214,14 @@ Note: 1 kilogram = 2.2 pounds
 Blade #5 foil practice = electric foil Italian epee
 
 | Blade | Pressure required for 2 inch bend |
-|----|
+| --- | --- |
 | #5 foil | 4.5 pounds |
 | Practice electric foil | 5.5 pounds|
 | Italian epee | 10 pounds |
 
 
 | Blade | Pressure for slow penetration | Thrust |
-|---|
+| --- | --- | --- |
 | gerber dagger | 3.5 pounds |  1.5 pounds |
 | light rapier   | 3.5 pounds | 1.5 pounds |
 | heavy rapier    | 5.5 pounds | 5.0 pounds |

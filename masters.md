@@ -3,14 +3,15 @@ title: Roster of Masters
 ---
 
 <table class="pure-table pure-table-bordered sortable" width="100%">
+<caption>Masters of Defense associated with the Academie</caption>
 <thead>
 <tr>
-   <th> Name </th>
-   <th> Location </th>
-   <th> Date </th>
-   <th> Event </th>
-   <th> Reign </th>
-   <th> Relationships </th>
+   <th scope="col"> Name </th>
+   <th scope="col"> Location </th>
+   <th scope="col"> Date </th>
+   <th scope="col"> Event </th>
+   <th scope="col"> Reign </th>
+   <th scope="col"> Relationships </th>
 </tr>
 </thead>
 <tbody>

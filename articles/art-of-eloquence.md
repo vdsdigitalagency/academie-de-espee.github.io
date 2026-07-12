@@ -32,6 +32,8 @@ say it.  Most verbs and adjectives can bring to mind an animal or object
 that personifies that word.  Below is a brief list of some words that
 easily lend themselves to metaphor.
 
+| Description | Example metaphor |
+| --- | --- |
 | crafty, cunning | Sly as a fox's smile |
 | witty, quick | Sharp as an embroider's needle |
 | delicate | Fragile as a robin's egg |

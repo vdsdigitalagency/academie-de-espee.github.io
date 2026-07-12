@@ -1,0 +1,730 @@
+[
+  {
+    "season": "Fall 2026",
+    "start_date": "2026-09-01",
+    "end_date": "2026-11-30",
+    "events": [
+      {
+        "date": "2026-10-30",
+        "display_date": "October 30-November 1",
+        "name": "Cotehardies, Coffyns & Hoods, Oh My! Baronial Investiture",
+        "location": "Nanjemoy, MD (Barony of Dun Carraig)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=6a3d3553"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-26",
+        "display_date": "September 26",
+        "name": "Tournament of Silver Chalice",
+        "location": "Harleyville, SC (Barony of Hidden Mountain)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=6a14ffbe"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-25",
+        "display_date": "September 25-27",
+        "name": "Trial by Fire",
+        "location": "Glen Arm, MD (Barony of Bright Hills)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69c47364"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-19",
+        "display_date": "September 19-20",
+        "name": "Fall Atlantian University",
+        "location": "Kingdom of Atlantia",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=7cbad6e9"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-11",
+        "display_date": "September 11-13",
+        "name": "Ancient Embers: Sacred Stone Investiture",
+        "location": "Morganton, NC (Barony of Sacred Stone)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69e4ddbc"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-23",
+        "display_date": "October 23-25",
+        "name": "Battle on the Bay",
+        "location": "Upper Marlboro, MD (Barony of Storvik)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69288e30"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-13",
+        "display_date": "October 13-18",
+        "name": "War of the Wings 2026: The Anarchy: Stephen vs Matilda",
+        "location": "Harmony, NC (Kingdom of Atlantia)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=6a15e232"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-02",
+        "display_date": "October 2-4",
+        "name": "Coronation of Ragnarr and Jân",
+        "location": "Nanjemoy, MD (Barony of Dun Carraig)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=6a3971f9"
+          }
+        ]
+      },
+      {
+        "date": "2026-09-25",
+        "display_date": "September 25-27",
+        "name": "Stierbach Birthday XXVIII",
+        "location": "Culpeper, VA (Barony of Stierbach)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69606615"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "season": "Summer 2026",
+    "start_date": "2026-06-01",
+    "end_date": "2026-08-31",
+    "events": [
+      {
+        "date": "2026-07-11",
+        "display_date": "July 11",
+        "name": "Warriors Games",
+        "location": "Harleyville, SC (Canton of Tear-Sea's Shore)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=6a1b56d7"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-05",
+        "display_date": "June 5-8",
+        "name": "Rumors of War- Part Tres",
+        "location": "Bryson City, NC (Canton of Stormwall)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=684892b9"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-19",
+        "display_date": "June 19-21",
+        "name": "Victory on the Vine",
+        "location": "Culpeper, VA (Barony of Ponte Alto)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68346820"
+          }
+        ]
+      },
+      {
+        "date": "2026-06-13",
+        "display_date": "June 13",
+        "name": "University of Atlantia",
+        "location": "Durham, NC (Kingdom of Atlantia)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69eac396"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-24",
+        "display_date": "July 24-August 9",
+        "name": "PENNSIC LIII",
+        "location": "Kingdom of Æthelmearc",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=33ddbc84"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-18",
+        "display_date": "July 18",
+        "name": "Procrastinators Paradise- Last Chance Authorizations and Sewing Day",
+        "location": "Waldorf, MD (Barony of Dun Carraig)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69a8cdbd"
+          }
+        ]
+      },
+      {
+        "date": "2026-07-11",
+        "display_date": "July 11",
+        "name": "King's Assessment",
+        "location": "Big Island, VA (Barony of Black Diamond)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69cc6352"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "season": "Spring 2026",
+    "start_date": "2026-03-01",
+    "end_date": "2026-05-31",
+    "events": [
+      {
+        "date": "2026-05-29",
+        "display_date": "May 29-31",
+        "name": "Curly Cross II",
+        "location": "Apex, NC (Barony of Nimenefeld)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=680814f4"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15",
+        "display_date": "May 15-17",
+        "name": "Hawkwood Baronial Birthday XXII: The Lily and the Crescent",
+        "location": "Balsam Grove, NC (Barony of Hawkwood)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=6910c744"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "display_date": "May 9",
+        "name": "Tir-y-Don Baronial Birthday",
+        "location": "Newport News, VA (Barony of Tir-y-Don)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=697e6d7f"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-15",
+        "display_date": "May 15-17",
+        "name": "BAWT V",
+        "location": "Culpeper, VA (Barony of Ponte Alto)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=693345a6"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-09",
+        "display_date": "May 9",
+        "name": "Not Quite Quarterly Bragging Rights VI",
+        "location": "Aiken, SC (Canton of Ritterwald)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=690b64c5"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-01",
+        "display_date": "May 1-3",
+        "name": "Spring Crown Tournament",
+        "location": "Rock Hill, SC (Canton of Charlesbury Crossing)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68b1e356"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-25",
+        "display_date": "April 25",
+        "name": "Below the Salt: Meet at the White Phoenix Tavern",
+        "location": "Winston-Salem, NC (Barony of Sacred Stone)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=6887ad2a"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-18",
+        "display_date": "April 18",
+        "name": "Dragon Fire V: Skyweaver Training Grounds",
+        "location": "Easley, SC (Barony of Nottinghill Coill)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=695b0d54"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-11",
+        "display_date": "April 11",
+        "name": "Festival of Elvegast: Greenwood Gathering",
+        "location": "Hillsborough, NC (Barony of Elvegast)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68990215"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-11",
+        "display_date": "April 11",
+        "name": "Night at the Port & Investiture",
+        "location": "Severn, MD (Barony of Lochmere)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68968b6f"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-30",
+        "display_date": "May 30",
+        "name": "Skewered! 6",
+        "location": "Gaithersburg, MD (Canton of Roxbury Mill)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68f64371"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-22",
+        "display_date": "May 22-25",
+        "name": "Gem Joust",
+        "location": "Hanover, VA (Barony of Caer Mear)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69718364"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-24",
+        "display_date": "April 24-26",
+        "name": "Storvik Novice Tournament",
+        "location": "Upper Marlboro, MD (Barony of Storvik)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=692c464e"
+          }
+        ]
+      },
+      {
+        "date": "2026-04-04",
+        "display_date": "April 4",
+        "name": "The Coronation of Wilhelm and Genevieve",
+        "location": "Fredericksburg, VA (Barony of Stierbach)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=69652770"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-28",
+        "display_date": "March 28",
+        "name": "Defending the Gate",
+        "location": "Spotsylvania Courthouse, VA (Canton of Sudentorre)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68c9f806"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-27",
+        "display_date": "March 27-29",
+        "name": "Hidden Mountain Baronial Birthday & Investiture",
+        "location": "Bennettsville, SC (Barony of Hidden Mountain)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=6936cdb4"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-21",
+        "display_date": "March 21",
+        "name": "Ponte Alto Baronial Birthday Bloodbath",
+        "location": "Annandale, VA (Barony of Ponte Alto)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68ca0beb"
+          }
+        ]
+      },
+      {
+        "date": "2026-03-14",
+        "display_date": "March 14-22",
+        "name": "Gulf Wars 2026",
+        "location": "Kingdom of Gleann Abhann",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=cc71a173"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "season": "Winter 2025/26",
+    "start_date": "2025-12-01",
+    "end_date": "2026-02-28",
+    "events": [
+      {
+        "date": "2026-02-27",
+        "display_date": "February 27-March 1",
+        "name": "Children of Loki, Raven's Cove Baronial Birthday",
+        "location": "Richlands, NC (Barony of Raven's Cove)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68705323"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-20",
+        "display_date": "February 20-22",
+        "name": "Ymir 51: Tyr's Redemption",
+        "location": "Ellerbe, NC (Barony of Windmasters' Hill)",
+        "links": [
+          {
+            "label": "Link to event details",
+            "url": "https://atlantia.sca.org/event/?event_id=68d0900f"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-14",
+        "display_date": "February 14",
+        "name": "Celebration Theodora",
+        "location": "Richmond, VA (Barony of Caer Mear)"
+      },
+      {
+        "date": "2026-02-14",
+        "display_date": "February 14",
+        "name": "Tourney of Manannan mac Lir XLIV",
+        "location": "Harleyville, SC (Canton of Tear-Sea's Shore)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://atlantia.sca.org/event/?event_id=68057917"
+          }
+        ]
+      },
+      {
+        "date": "2026-02-07",
+        "display_date": "February 7-8",
+        "name": "Winter University 2026",
+        "location": "Kingdom of Atlantia",
+        "links": [
+          {
+            "label": "Link to pre-register",
+            "url": "https://university.atlantia.sca.org/",
+            "note": "Pre-registration is optional this year, but recommended."
+          }
+        ]
+      },
+      {
+        "date": "2026-02-07",
+        "display_date": "February 7",
+        "name": "Bright Hills Baronial Birthday",
+        "location": "Manchester MD (Barony of Bright Hills)",
+        "notes": ["Fencing activities have not yet be confirmed."]
+      },
+      {
+        "date": "2026-01-31",
+        "display_date": "January 31",
+        "name": "Epics of the Stone",
+        "location": "Winston-Salem, NC (Barony of Sacred Stone)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://atlantia.sca.org/event/?event_id=68e2c4a5"
+          }
+        ]
+      },
+      {
+        "date": "2026-01-24",
+        "display_date": "January 24",
+        "name": "Ice Castles 2026/Legend of Yuki-Onna (Canceled)",
+        "location": "Lynchburg, VA (Barony of Black Diamond)"
+      },
+      {
+        "date": "2026-01-20",
+        "display_date": "January 20, 6:30 PM",
+        "name": "Monthly Open Council Meeting",
+        "location": "Academie d'Espee (Online)",
+        "links": [
+          {
+            "prefix": "Link available on the",
+            "label": "Rapier Email List",
+            "url": "https://groups.google.com/a/group.atlantia.sca.org/g/rapier",
+            "note": "and the Atlantia Rapier Discord server."
+          }
+        ]
+      },
+      {
+        "date": "2026-01-17",
+        "display_date": "January 17",
+        "name": "Nottinghill Coill Baronial Birthday XLVI",
+        "location": "Bennettsville, SC (Barony of Nottinghill Coill)"
+      },
+      {
+        "date": "2026-01-10",
+        "display_date": "January 10",
+        "name": "Atlantian 12th Night",
+        "location": "Trenton, NC (Barony of Nimenefeld)",
+        "links": [
+          {
+            "prefix": "This year 12th Night will held a \"Rapier Noblesse Oblige\" tournament.",
+            "label": "Link to Fencing Activites",
+            "url": "https://www.12thnight.atlantia.sca.org/arts-sciences/activities-games/rapier-noblesse-oblige/"
+          }
+        ]
+      },
+      {
+        "date": "2025-12-20",
+        "display_date": "December 20",
+        "name": "Storvik Yule Revel (Canceled)",
+        "location": "Cheverley, MD (Barony of Storvik)"
+      },
+      {
+        "date": "2025-12-16",
+        "display_date": "December 16, 6:30 PM",
+        "name": "Monthly Open Council Meeting",
+        "location": "Academie d'Espee (Online)",
+        "links": [
+          {
+            "prefix": "Link available on the",
+            "label": "Rapier Email List",
+            "url": "https://groups.google.com/a/group.atlantia.sca.org/g/rapier",
+            "note": "and the Atlantia Rapier Discord server."
+          }
+        ]
+      },
+      {
+        "date": "2025-12-06",
+        "display_date": "December 6",
+        "name": "Unevent 2025",
+        "location": "Virtual (Kingdom of Atlantia)",
+        "links": [
+          {
+            "label": "Link to the official schedule",
+            "url": "https://unevent.atlantia.sca.org/wp-content/uploads/2025/11/Unevent-2025-schedule-final.pdf"
+          }
+        ]
+      },
+      {
+        "date": "2025-12-13",
+        "display_date": "December 13",
+        "name": "Yule Toy Tourney",
+        "location": "Pickens, SC (Barony of Nottinghill Coill)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://atlantia.sca.org/calendar/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "season": "Fall 2025",
+    "start_date": "2025-09-01",
+    "end_date": "2025-11-30",
+    "events": [
+      {
+        "date": "2025-11-22",
+        "display_date": "November 22",
+        "name": "Holiday Faire",
+        "location": "Fredericksburg, VA (Barony of Stierbach)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://holidayfaire.stierbach.atlantia.sca.org/activities/rapier-2/"
+          }
+        ],
+        "notes": ["3v3 melee for the Provost prize for Maestra Nicolosa de Misura, Noble Sigfrid, and Baroness Yuri Murasaki."],
+        "poc": "Giovana Fabris di Padua"
+      },
+      {
+        "date": "2025-11-22",
+        "display_date": "November 22",
+        "name": "Buckston Birthday",
+        "location": "Apex, NC (Canton of Buckston-on-Eno)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://buckston.windmastershill.org/buckston-birthday-2025/#martial-comps"
+          }
+        ]
+      },
+      {
+        "date": "2025-11-18",
+        "display_date": "November 18, 6:30 PM",
+        "name": "Monthly Open Council Meeting",
+        "location": "Academie d'Espee (Online)",
+        "links": [
+          {
+            "prefix": "Link available on the",
+            "label": "Rapier Email List",
+            "url": "https://groups.google.com/a/group.atlantia.sca.org/g/rapier",
+            "note": "and the Atlantia Rapier Discord server."
+          }
+        ]
+      },
+      {
+        "date": "2025-11-08",
+        "display_date": "November 8",
+        "name": "Fall Crown Tournament",
+        "location": "Courtland, VA (Barony of Marinus)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://atlantia.sca.org/calendar/"
+          }
+        ],
+        "poc": "Master Lochlainn hua Rigbarddain"
+      },
+      {
+        "date": "2025-11-01",
+        "display_date": "November 1",
+        "name": "A Festival of Bones",
+        "location": "Nanjemoy, MD (Barony of Dun Carraig)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://duncarraig.atlantia.sca.org/events/a-festival-of-bones/#bppb-heading-anchor-7"
+          }
+        ],
+        "poc": "Lady Virginie de Champagne"
+      },
+      {
+        "date": "2025-11-01",
+        "display_date": "November 1",
+        "name": "Memento Mori: The Nightmare Before Yule",
+        "location": "Old Fort, NC (Canton of Haukesgate)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://sites.google.com/view/hawkwoodmemento/martial-activities"
+          }
+        ]
+      },
+      {
+        "date": "2025-10-21",
+        "display_date": "October 21, 6:30 PM",
+        "name": "Monthly Open Council Meeting",
+        "location": "Academie d'Espee (Online)",
+        "links": [
+          {
+            "prefix": "Link available on the",
+            "label": "Rapier Email List",
+            "url": "https://groups.google.com/a/group.atlantia.sca.org/g/rapier",
+            "note": "and the Atlantia Rapier Discord server."
+          }
+        ]
+      },
+      {
+        "date": "2025-10-11",
+        "display_date": "October 11-19",
+        "name": "War of the Wings",
+        "location": "Harmony, NC (Barony of Sacred Stone)",
+        "links": [
+          {
+            "label": "Link to Fencing Activities",
+            "url": "https://warofthewings.atlantia.sca.org/martial-activity/rapier-combat/"
+          }
+        ],
+        "notes": ["The Academie d'Espee hosted a hospitality tent on the fencing field."],
+        "poc": "Baroness Azza al-Shiraziyya"
+      },
+      {
+        "date": "2025-09-21",
+        "display_date": "September 21",
+        "name": "University of Atlantia: Academie d’Espee Roundtable",
+        "location": "Lynchburg, VA (Barony of Seven Hills / Online)",
+        "notes": ["Online Academie Roundtable Discussion."]
+      },
+      {
+        "date": "2025-09-16",
+        "display_date": "September 16, 6:30 PM",
+        "name": "Monthly Open Council Meeting",
+        "location": "Academie d'Espee (Online)",
+        "notes": ["See the Rapier Email List for meeting summary and updates."]
+      },
+      {
+        "date": "2025-09-06",
+        "display_date": "September 6",
+        "name": "Battle on the Bay: Ride of the Four Horsemen",
+        "location": "Upper Marlboro, MD (Barony of Storvik)",
+        "notes": ["Lady Caitilín Inghean Uí Ruaidhrí Provost Prize Fight (Cut & Thrust preferred)."],
+        "emphasis": "The prize fight began following court and authorizations."
+      }
+    ]
+  }
+]

@@ -89,6 +89,16 @@ sorttable = {
 	      // make it clickable to sort
 	      headrow[i].sorttable_columnindex = i;
 	      headrow[i].sorttable_tbody = table.tBodies[0];
+	      headrow[i].setAttribute('tabindex', '0');
+	      headrow[i].setAttribute('aria-sort', 'none');
+	      dean_addEvent(headrow[i], "keydown", function(e) {
+	        e = e || window.event;
+	        var key = e.key || e.keyCode;
+	        if (key === 'Enter' || key === ' ' || key === 13 || key === 32) {
+	          if (e.preventDefault) e.preventDefault();
+	          this.click();
+	        }
+	      });
 	      dean_addEvent(headrow[i],"click", sorttable.innerSortFunction = function(e) {
 
           if (this.className.search(/\bsorttable_sorted\b/) != -1) {
@@ -97,6 +107,7 @@ sorttable = {
             sorttable.reverse(this.sorttable_tbody);
             this.className = this.className.replace('sorttable_sorted',
                                                     'sorttable_sorted_reverse');
+		    this.setAttribute('aria-sort', 'descending');
             this.removeChild(document.getElementById('sorttable_sortfwdind'));
             sortrevind = document.createElement('span');
             sortrevind.id = "sorttable_sortrevind";
@@ -110,6 +121,7 @@ sorttable = {
             sorttable.reverse(this.sorttable_tbody);
             this.className = this.className.replace('sorttable_sorted_reverse',
                                                     'sorttable_sorted');
+		    this.setAttribute('aria-sort', 'ascending');
             this.removeChild(document.getElementById('sorttable_sortrevind'));
             sortfwdind = document.createElement('span');
             sortfwdind.id = "sorttable_sortfwdind";
@@ -124,6 +136,9 @@ sorttable = {
             if (cell.nodeType == 1) { // an element
               cell.className = cell.className.replace('sorttable_sorted_reverse','');
               cell.className = cell.className.replace('sorttable_sorted','');
+		      if (cell.getAttribute('aria-sort') !== null) {
+		        cell.setAttribute('aria-sort', 'none');
+		      }
             }
           });
           sortfwdind = document.getElementById('sorttable_sortfwdind');
@@ -132,6 +147,7 @@ sorttable = {
           if (sortrevind) { sortrevind.parentNode.removeChild(sortrevind); }
 
           this.className += ' sorttable_sorted';
+		  this.setAttribute('aria-sort', 'ascending');
           sortfwdind = document.createElement('span');
           sortfwdind.id = "sorttable_sortfwdind";
           sortfwdind.innerHTML = stIsIE ? '&nbsp<font face="webdings">6</font>' : '&nbsp;&#x25BE;';
@@ -492,4 +508,3 @@ var forEach = function(object, block, context) {
 		resolve.forEach(object, block, context);
 	}
 };
-

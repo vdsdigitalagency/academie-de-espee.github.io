@@ -4,109 +4,72 @@ title: Academie Calendar
 
 Here you will find the upcoming events where the members of the Academie d'Espee host prize fights, offer hospitality, and bring the community together through gatherings, meetings, and practices. Only events within the Kingdom of Atlantia that include rapier fencing activities are listed below. For a complete schedule of all official SCA events, please visit the [Kingdom of Atlantia Calendar](https://atlantia.sca.org/calendar/).
 
-Do you want to advertise an event? Are you a member? Email [Lady Virginie de Champagne](mailto:vvdelaitre@gmail.com) to have your event published.
+Do you want to advertise an event? Email [Lady Virginie de Champagne](mailto:vvdelaitre@gmail.com) to have your event published. For questions regarding a specific event, please contact the Academie’s designated Point of Contact (POC) listed for that event.
 
-For questions regarding a specific event, please contact the Academie’s designated Point of Contact (POC) listed for that event.
+<div class="event-filters" role="search" aria-label="Filter events">
+  <div>
+    <label for="event-search">Search events:</label>
+    <input id="event-search" type="search" minlength="3" placeholder="Enter at least 3 letters" autocomplete="off">
+  </div>
+  <div>
+    <label for="event-state">State:</label>
+    <span class="event-state-select">
+      <select id="event-state">
+        <option value="">All states</option>
+        <option value="VA">Virginia</option>
+        <option value="MD">Maryland</option>
+        <option value="NC">North Carolina</option>
+        <option value="SC">South Carolina</option>
+        <option value="other">Other / Online</option>
+      </select>
+    </span>
+  </div>
+  <span id="event-filter-status" role="status" aria-live="polite"></span>
+</div>
 
-## Winter 2025
+{% assign sorted_seasons = site.data.events | sort: "start_date" | reverse %}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign next_event_date = "9999-12-31" %}
+{% for group in site.data.events %}
+  {% for event in group.events %}
+    {% if event.date >= today and event.date < next_event_date %}
+      {% assign next_event_date = event.date %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign next_event_week = next_event_date | date: "%G-%V" %}
+{% for group in sorted_seasons %}
+<details class="event-season"{% if group.end_date >= today %} open{% endif %}>
+<summary><h2>{{ group.season }}</h2></summary>
+<ul class="events-list">
+{% assign sorted_events = group.events | sort: "date" | reverse %}
+{% for event in sorted_events %}
+  {% assign is_next_event = false %}
+  {% assign event_week = event.date | date: "%G-%V" %}
+  {% assign event_state = "other" %}
+  {% if event.location contains ", VA" %}{% assign event_state = "VA" %}
+  {% elsif event.location contains ", MD" %}{% assign event_state = "MD" %}
+  {% elsif event.location contains ", NC" %}{% assign event_state = "NC" %}
+  {% elsif event.location contains ", SC" %}{% assign event_state = "SC" %}
+  {% endif %}
+  {% if event.date >= today and event_week == next_event_week %}
+    {% assign is_next_event = true %}
+  {% endif %}
+  <li data-event-state="{{ event_state }}"{% if is_next_event %} class="next-event"{% endif %}>
+    <strong>{{ event.display_date }} – {{ event.name }}</strong><br>
+    <em>{{ event.location }}</em>
+    {% for link in event.links %}
+      <br>{% if link.prefix %}{{ link.prefix }} {% endif %}<a href="{{ link.url }}">{{ link.label }}</a>{% if link.note %} {{ link.note }}{% endif %}
+    {% endfor %}
+    {% for note in event.notes %}
+      <br>{{ note }}
+    {% endfor %}
+    {% if event.emphasis %}<br><em>{{ event.emphasis }}</em>{% endif %}
+    {% if event.poc %}<br><em>POC: {{ event.poc }}</em>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+</details>
+{% endfor %}
 
-* **February 14 – Celebration Theodora**  
-  *Richmond, VA (Barony of Caer Mear)*  
-
-* **February 14 – Tourney of Manannan mac Lir XLIV**  
-  *Harleyville, SC (Canton of Tear-Sea's Shore)*  
-  [Link to Fencing Activities](https://atlantia.sca.org/event/?event_id=68057917)
-
-* **February 7-8 — Winter University 2026**  
-  *Kingdom of Atlantia*  
-  [Link to pre-register](https://university.atlantia.sca.org/) Pre-registration is optional this year, but recommended.
-
-* **February 7 — Bright Hills Baronial Birthday**  
-  *Manchester MD (Barony of Bright Hills)*  
-  Fencing activities have not yet be confirmed.
-
-* **January 31 — Epics of the Stone**  
-  *Winston-Salem, NC (Barony of Sacred Stone)*  
-  [Link to Fencing Activities](https://atlantia.sca.org/event/?event_id=68e2c4a5)
-
-* **January 24 — Ice Castles 2026/Legend of Yuki-Onna (Canceled)**  
-  *Lynchburg, VA (Barony of Black Diamond)*  
-
-* **January 20, 6:30 PM – Monthly Open Council Meeting**  
-  *Academie d'Espee (Online)*  
-  Link available on the [Rapier Email List](https://groups.google.com/a/group.atlantia.sca.org/g/rapier) and the Atlantia Rapier Discord server.  
-
-* **January 17 — Nottinghill Coill Baronial Birthday XLVI**  
-  *Bennettsville, SC (Barony of Nottinghill Coill)*  
-
-* **January 10 – Atlantian 12th Night**  
-  *Trenton, NC (Barony of Nimenefeld)*  
-  This year 12th Night will held a "Rapier Noblesse Oblige" tournament. [Link to Fencing Activites](https://www.12thnight.atlantia.sca.org/arts-sciences/activities-games/rapier-noblesse-oblige/)  
-
-* **December 20 – Storvik Yule Revel (Canceled)**  
-  *Cheverley, MD (Barony of Storvik)*  
-
-* **December 16, 6:30 PM – Monthly Open Council Meeting**  
-  *Academie d'Espee (Online)*  
-  Link available on the [Rapier Email List](https://groups.google.com/a/group.atlantia.sca.org/g/rapier) and the Atlantia Rapier Discord server.  
-
-* **December 13 – Yule Toy Tourney**  
-  *Pickens, SC (Barony of Nottinghill Coill)*  
-  [Link to Fencing Activities](https://atlantia.sca.org/calendar/)  
-
-## Fall 2025
-
-* **December 6 – Unevent 2025**  
-  *Virtual (Kingdom of Atlantia)*  
-  [Link to the official schedule](https://unevent.atlantia.sca.org/wp-content/uploads/2025/11/Unevent-2025-schedule-final.pdf)  
-
-* **November 22 – Holiday Faire**  
-  *Fredericksburg, VA (Barony of Stierbach)*  
-  [Link to Fencing Activities](https://holidayfaire.stierbach.atlantia.sca.org/activities/rapier-2/)  
-  3v3 melee for the Provost prize for Maestra Nicolosa de Misura, Noble Sigfrid, and Baroness Yuri Murasaki.  
-  *POC: Giovana Fabris di Padua*  
-
-* **November 22 – Buckston Birthday**  
-  *Apex, NC (Canton of Buckston-on-Eno)*  
-  [Link to Fencing Activities](https://buckston.windmastershill.org/buckston-birthday-2025/#martial-comps)  
-
-* **November 18, 6:30 PM – Monthly Open Council Meeting**  
-  *Academie d'Espee (Online)*  
-  Link available on the [Rapier Email List](https://groups.google.com/a/group.atlantia.sca.org/g/rapier) and the Atlantia Rapier Discord server.  
-
-* **November 8 – Fall Crown Tournament**  
-  *Courtland, VA (Barony of Marinus)*  
-  [Link to Fencing Activities](https://atlantia.sca.org/calendar/)  
-  *POC: Master Lochlainn hua Rigbarddain*  
-
-* **November 1 – A Festival of Bones**  
-  *Nanjemoy, MD (Barony of Dun Carraig)*  
-  [Link to Fencing Activities](https://duncarraig.atlantia.sca.org/events/a-festival-of-bones/#bppb-heading-anchor-7)  
-  *POC: Lady Virginie de Champagne*  
-
-* **November 1 – Memento Mori: The Nightmare Before Yule**  
-  *Old Fort, NC (Canton of Haukesgate)*  
-  [Link to Fencing Activities](https://sites.google.com/view/hawkwoodmemento/martial-activities)  
-
-* **October 21, 6:30 PM – Monthly Open Council Meeting**  
-  *Academie d'Espee (Online)*  
-  Link available on the [Rapier Email List](https://groups.google.com/a/group.atlantia.sca.org/g/rapier) and the Atlantia Rapier Discord server.  
-
-* **October 11–19 – War of the Wings**  
-  *Harmony, NC (Barony of Sacred Stone)*  
-  [Link to Fencing Activities](https://warofthewings.atlantia.sca.org/martial-activity/rapier-combat/)  
-  The Academie d'Espee hosted a hospitality tent on the fencing field.  
-  *POC: Baroness Azza al-Shiraziyya*  
-
-* **September 21 – University of Atlantia: Academie d’Espee Roundtable**  
-  *Lynchburg, VA (Barony of Seven Hills / Online)*  
-  Online Academie Roundtable Discussion.  
-
-* **September 16, 6:30 PM – Monthly Open Council Meeting**  
-  *Academie d'Espee (Online)*  
-  See the Rapier Email List for meeting summary and updates.  
-
-* **September 6 – Battle on the Bay: Ride of the Four Horsemen**  
-  *Upper Marlboro, MD (Barony of Storvik)*  
-  Lady Caitilín Inghean Uí Ruaidhrí Provost Prize Fight (Cut & Thrust preferred).  
-  *The prize fight began following court and authorizations.*  
+<script src="/js/event-filters.js"></script>

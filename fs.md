@@ -3,14 +3,15 @@ title: Roster of Free Scholars
 ---
 
 <table class="pure-table pure-table-bordered sortable" width="100%">
+<caption>Free Scholars of the Academie</caption>
 <thead>
 <tr>
-    <th> Name </th>
-    <th> Location </th>
-    <th> Date </th>
-    <th> Event </th>
-    <th> Sponsors </th>
-    <th> Miscellaneous </th>
+    <th scope="col"> Name </th>
+    <th scope="col"> Location </th>
+    <th scope="col"> Date </th>
+    <th scope="col"> Event </th>
+    <th scope="col"> Sponsors </th>
+    <th scope="col"> Miscellaneous </th>
 </tr>
 </thead>
 <tbody>

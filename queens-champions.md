@@ -15,12 +15,13 @@ For many years, Atlantian royalty have looked to rapier champions to support and
 ## {{ reign_type }}'s {{ sword_type }} champions
 
 <table class="pure-table pure-table-bordered sortable" width="100%">
+<caption>{{ reign_type }}'s {{ sword_type }} champions by reign</caption>
 <thead>
 <tr>
-    <th> Reign </th>
-    <th> Date</th>
-    <th> {{ reign_type }} </th>
-    <th> Champion(s) </th>
+    <th scope="col"> Reign </th>
+    <th scope="col"> Date</th>
+    <th scope="col"> {{ reign_type }} </th>
+    <th scope="col"> Champion(s) </th>
 </tr>
 </thead>
 <tbody>
